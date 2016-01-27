@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Feed my Brain!",
+  "description": "Remove Facebook News Feed",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*"
+      ],
+      "css": [
+        "src/content.css"
+      ],
+      "js": [
+        "src/content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "https://facebook.com/"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
