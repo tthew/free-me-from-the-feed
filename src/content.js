@@ -2,7 +2,6 @@
   var LEFT_NAV_ITEM_SELECTOR = '[data-testid="left_nav_item_News Feed"]'
   var NEWS_FEED_SELECTOR = '.home #contentArea'
   var FEED_REPLACEMENT_HTML = '<h1>Nothing to see here!</h1>'
-  var DOM_WAIT_TIMEOUT = 300
   var LOCATION_WATCHER_INTERVAL = 1000
 
   function waitForElement (selector) {
