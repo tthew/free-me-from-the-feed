@@ -13,6 +13,30 @@ No maintenance intended. This was a quick pet project to scratch an itch. Source
 
 Use at your own risk!
 
+## Chrome Extension Installation
+
+The extension has not (yet) been published to the Chrome Web Store. You have two potential vectors for installation;
+
+### Install the packed extension (ctx).
+
+1. In order to install the packed extension you must be running a 'dev channel' release of Chrome (or Chromium).
+2. Download the latest .crx from [Releases](https://github.com/tthew/free-me-from-the-feed/releases).
+3. Navigate via the menu bar to `Window > Extensions`.
+4. Ensure 'Developer Mode' is checked.
+5. Drag the .crx from wherever you downloaded it to to the extension window.
+6. Follow prompts.
+7. Voila.
+
+### Install unpacked extension
+
+1. Download the latest release from [Releases](https://github.com/tthew/free-me-from-the-feed/releases) or clone this repo.
+2. If you downloaded a compressed release unpack it.
+3. Navigate via the menu bar to `Window > Extensions`.
+4. Ensure 'Developer Mode' is checked.
+5. Click 'Load unpacked extension' navigate to release / repo root, click open.
+6. Follow prompts.
+7. Voila!
+
 ## License
 
 Copyright 2016 Matt Richards.
