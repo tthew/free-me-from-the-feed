@@ -9,7 +9,9 @@ to retain all other functionality unaffected.
 
 Implemented with vanilla Javascript. Could be easily ported to other browsers or via extensions or Userscripts.
 
-No maintenance intended. This was a quick pet project to scratch an itch. Source provided as-is. Use at your own risk!
+No maintenance intended. This was a quick pet project to scratch an itch. Source provided as-is. Bug reports and Pull Requests invited, but please don't expect anything to happen quickly or ever at all. Feel free to fork and self maintain.
+
+Use at your own risk!
 
 ## License
 
