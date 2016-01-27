@@ -1,9 +1,15 @@
 # FreeMeFromTheFeed - Facebook News Feed Blocker Chrome Extension
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+---
+
 Rudimentary Chrome Extension to block the Facebook News Feed whilst attempting
 to retain all other functionality unaffected.
 
 Implemented with vanilla Javascript. Could be easily ported to other browsers or via extensions or Userscripts.
+
+No maintenance intended. This was a quick pet project to scratch an itch. Source provided as-is. Use at your own risk!
 
 ## License
 
