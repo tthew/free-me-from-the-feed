@@ -32,6 +32,11 @@
     })
   }
 
+  function showContentArea () {
+    var el = document.querySelector(NEWS_FEED_SELECTOR)
+    el.setAttribute('style', 'display: block !important')
+  }
+
   function watchLocation () {
     var old = {}
     var cur
@@ -39,6 +44,7 @@
       cur = window.location
       if (cur.pathname !== old.pathname ||
           cur.hash !== old.hash) {
+        if (cur.pathname !== '/') return showContentArea()
         waitForLeftNavAndHide()
         waitForNewsFeedAndHide()
       }

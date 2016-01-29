@@ -1,6 +1,6 @@
 {
   "name": "FreeMeFromTheFeed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rudimentary Chrome Extension to block the Facebook News Feed whilst attempting to retain all other functionality unaffected.",
   "main": "src/content.js",
   "scripts": {
