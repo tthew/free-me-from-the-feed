@@ -4,7 +4,7 @@
   "description": "Rudimentary Chrome Extension to block the Facebook News Feed whilst attempting to retain all other functionality unaffected.",
   "main": "src/content.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tthew/free-me-from-the-feed/issues"
   },
-  "homepage": "https://github.com/tthew/free-me-from-the-feed#readme"
+  "homepage": "https://github.com/tthew/free-me-from-the-feed#readme",
+  "devDependencies": {
+    "standard": "^5.4.1"
+  }
 }
