@@ -56,5 +56,4 @@
   console.log('FreeMeFromTheFeed News Feed Blocker is enabled. To disable visit \'extensions\'.')
   watchLocation()
   setInterval(watchLocation(), LOCATION_WATCHER_INTERVAL)
-
 })()
