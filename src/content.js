@@ -3,6 +3,7 @@
   var NEWS_FEED_SELECTOR = '.home #contentArea'
   var FEED_REPLACEMENT_HTML = '<h1>Nothing to see here!</h1>'
   var LOCATION_WATCHER_INTERVAL = 1000
+  var ELEMENT_WAIT_TIMEOUT = 100
 
   function waitForElement (selector) {
     return new Promise(function (resolve, reject) {
@@ -12,7 +13,7 @@
           clearInterval(intervalId)
           return resolve(el)
         }
-      }, 1)
+      }, ELEMENT_WAIT_TIMEOUT)
     })
   }
 
