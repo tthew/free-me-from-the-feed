@@ -34,8 +34,10 @@
   }
 
   function showContentArea () {
-    var el = document.querySelector(NEWS_FEED_SELECTOR)
-    el.setAttribute('style', 'display: block !important')
+    return waitForElement(NEWS_FEED_SELECTOR)
+    .then(function (el) {
+      el.setAttribute('style', 'display: block !important')
+    })
   }
 
   function watchLocation () {
